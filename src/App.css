@@ -23,7 +23,7 @@ body{
 
 }
 #to-do-form input:focus,#to-do-form button:focus{
-outline: none;
+  outline: none;
 }
 
 #to-do-form button{
@@ -35,5 +35,14 @@ outline: none;
   cursor: pointer;
   font-weight: bolder;
   color:darkslategrey;
+}
+.list p input{
+  background-color: transparent;
+  border:0;
+  color: white;
+  font-size: 18px;
+}
+.list p input:focus{
+  outline: none;
 }
 

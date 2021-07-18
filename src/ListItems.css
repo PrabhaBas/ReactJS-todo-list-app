@@ -1,0 +1,26 @@
+.list{
+    color: white;
+    width: 300px;
+    background-color:indigo ;
+    height: 45px;
+    margin: 20px auto;
+    border-radius: 5px; 
+}
+.list:focus{
+    outline-color: rgb(243, 235, 235);
+    outline: white;
+}
+.list p{
+padding: 10px;
+position: relative;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15 px;    
+
+}

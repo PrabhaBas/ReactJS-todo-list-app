@@ -1,14 +1,13 @@
 .list{
-    color: white;
-    width: 300px;
-    background-color:indigo ;
+    color:darkslategrey;
+    width: 320px;
+    background-color:tan ;
     height: 45px;
     margin: 20px auto;
     border-radius: 5px; 
 }
 .list:focus{
-    outline-color: rgb(243, 235, 235);
-    outline: white;
+   outline: none;
 }
 .list p{
 padding: 10px;
